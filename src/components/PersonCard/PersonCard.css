@@ -1,0 +1,55 @@
+.person-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin: 0;
+}
+
+.person-card__title {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.person-card__list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.person-card__item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.person-card__item:last-child {
+  border-bottom: none;
+}
+
+.person-card__line {
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.person-card__artist {
+  font-weight: 600;
+}
+
+.person-card__meta {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: var(--muted);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.person-card__dot {
+  opacity: 0.8;
+}
+
+.person-card__link {
+  text-decoration: underline;
+}
