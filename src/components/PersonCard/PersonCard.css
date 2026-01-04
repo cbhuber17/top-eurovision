@@ -2,19 +2,24 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 16px;
   margin: 0;
 }
 
 .person-card__title {
+  background: #001f3f;
   margin: 0 0 12px;
   font-size: 1.1rem;
   line-height: 1.2;
+  text-align: center;
+  border-bottom: 2px solid white;
+  padding: 16px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 14px 14px 0px 0px;
+  border-radius: 14px 14px 0px 0px;
 }
 
 .person-card__list {
   margin: 0;
-  padding-left: 1.25rem;
 }
 
 .person-card__item {
