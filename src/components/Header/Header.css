@@ -1,0 +1,19 @@
+.site-header {
+  padding: 24px 16px 12px;
+}
+
+.site-title {
+  margin: 0;
+  font-family: "Eurotype2016", system-ui, sans-serif;
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: normal;
+  letter-spacing: 2.5px;
+
+  /* Gradient text */
+  background: linear-gradient(45deg, #ff38cf 0%, #00cdc8 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
