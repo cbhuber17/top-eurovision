@@ -1,3 +1,4 @@
+import Flag from "../Flag/Flag";
 import "./PersonCard.css";
 
 /**
@@ -28,8 +29,13 @@ export default function PersonCard({ personName, top10 }) {
 
             <div className="person-card__meta">
               <span className="person-card__country">
-                {item.flagEmoji} {item.country}
+                <Flag
+                  countryCode={item.countryCode}
+                  countryName={item.country}
+                />{" "}
+                {item.country}
               </span>
+
               <span className="person-card__dot">•</span>
               <span className="person-card__year">{item.year}</span>
               <span className="person-card__dot">•</span>
