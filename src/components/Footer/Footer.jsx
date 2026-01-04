@@ -1,7 +1,7 @@
 import "./Footer.css";
 
 export default function Footer() {
-  const lastUpdated = "January 3, 2026";
+  const lastUpdated = "January 4, 2026";
 
   return (
     <footer className="site-footer">
