@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import PersonCard from "./components/PersonCard/PersonCard";
 import { eurovisionTop10ByPerson } from "./data/eurovisionTop10";
+import StatsSection from "./components/StatsSection/StatsSection";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
             />
           ))}
         </main>
+        <StatsSection people={eurovisionTop10ByPerson} />
         <Footer />
       </div>
     </div>
