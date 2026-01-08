@@ -149,10 +149,10 @@ export const eurovisionTop10ByPerson = [
     top10: [
       {
         rank: 1,
-        artist: "Artist Name",
-        song: "Song Title",
-        country: "Country Name",
-        countryCode: "XX",
+        artist: "???",
+        song: "???",
+        country: "???",
+        countryCode: "CA",
         flagEmoji: "🏳️",
         year: 2000,
         youtubeUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX",
