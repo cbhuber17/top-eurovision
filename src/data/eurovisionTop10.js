@@ -149,13 +149,13 @@ export const eurovisionTop10ByPerson = [
     top10: [
       {
         rank: 1,
-        artist: "???",
-        song: "???",
-        country: "???",
-        countryCode: "CA",
-        flagEmoji: "🏳️",
-        year: 2000,
-        youtubeUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+        artist: "VÆB",
+        song: "RÓA",
+        country: "Iceland",
+        countryCode: "IS",
+        flagEmoji: "🇮🇸",
+        year: 2025,
+        youtubeUrl: "https://www.youtube.com/watch?v=c73Lx1QUZZA",
       },
       {
         rank: 2,
